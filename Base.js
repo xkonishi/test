@@ -5,6 +5,7 @@ Ext.define('MyApp.override.form.field.Base', {
         console.log('onFocus!!');
         
         var me = this;
+        me.callParent(arguments);
         me.focus({delay:100});
     } 
 });
