@@ -5,10 +5,10 @@ Ext.define('MyApp.override.form.field.Base', {
     	var me = this;
     	me.callParent(arguments);
 
-        var grid = me.up('gridpanel');
-        if (grid) {
-         		return;
-       }
+    	var grid = me.up('gridpanel');
+    	if (grid) {
+    		return;
+    	}
 
         console.log('onFocus!!', me);
 
