@@ -5,6 +5,11 @@ Ext.define('MyApp.override.button.Button', {
     	var me = this;
     	me.callParent(arguments);
 
+        var date = me.up('datepicker');
+        if (date) {
+            return;
+        }
+        
         console.log('Button - MouseOver!!');
 
         //グリッドの編集終了
