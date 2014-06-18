@@ -1,0 +1,39 @@
+■ Sencha Touch 2.3.1		
+
+items: {
+    xtype: 'fieldset',
+    title: 'About You',
+    instructions: 'Tell us all about yourself',
+    items: [
+        {
+            xtype: 'textfield',
+            name : 'firstName',
+            label: 'First Name'
+        },
+        {
+            xtype: 'textfield',
+            name : 'lastName',
+            label: 'Last Name'
+        }
+    ]
+}
+
+■ Sencha Touch 2.3.2
+
+items: {
+    xtype: 'fieldset',
+    title: 'About You',
+    instructions: 'Tell us all about yourself',
+    items: [
+        {
+            xtype: 'textfield',
+            name : 'firstName',
+            label: 'First Name'
+        },
+        {
+            xtype: 'textfield',
+            name : 'lastName',
+            label: 'Last Name'
+        }
+    ]
+}
