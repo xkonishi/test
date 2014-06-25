@@ -9,7 +9,8 @@ Ext.define('MyApp.override.data.writer.Json', {
         
         
         //Setup variables
-        var me = this, i, association, childStore, data = record.data;
+        var me = this, i, association, childStore, //data = record.data;
+            data = this.self.superclass.getRecordData(record);
 
         //Iterate over all the hasMany associations
         for (i = 0; i < record.associations.length; i++) {
