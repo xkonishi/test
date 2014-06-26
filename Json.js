@@ -14,6 +14,7 @@ Ext.define('MyApp.override.data.writer.Json', {
         var data = this.self.superclass.getRecordData(record);
 
         //子モデルのレコードは以下で作成する
+        
         //Iterate over all the hasMany associations
         for (i = 0; i < record.associations.length; i++) {
             association = record.associations.get(i);
