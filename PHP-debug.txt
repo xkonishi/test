@@ -1,0 +1,14 @@
+Wamp Server:
+http://www.wampserver.com/
+
+php.ini:
+C:\wamp\bin\apache\apache2.4.9\bin
+
+zend_extension = "c:/wamp/bin/php/php5.5.12/zend_ext/php_xdebug-2.2.5-5.5-vc11-x86_64.dll"
+;
+[xdebug]
+xdebug.remote_enable=on
+xdebug.remote_handler=dbgp
+xdebug.remote_mode=req
+xdebug.remote_host=localhost
+xdebug.remote_port=9000
